@@ -9,7 +9,7 @@ class LabyrintLoeser {
             filnavn = args[0];
         } else {
             System.out.println("FEIL! Riktig bruk av programmet: "
-                               +"java Oblig5 <labyrintfil>");
+                               +"java Labyrintloeser <labyrintfil>");
             return;
         }
         File fil = new File(filnavn);
